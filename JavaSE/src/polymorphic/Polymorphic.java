@@ -16,5 +16,4 @@ class Pol extends Polymorphic{
 		// TODO Auto-generated method stub
 		
 	}
-	
 }
