@@ -1,6 +1,6 @@
 package polymorphic;
 
-public abstract class Polymorphic {
+public abstract class MoreState {
 	public abstract void run();
 	
 	public void eat() {
@@ -9,7 +9,7 @@ public abstract class Polymorphic {
 	
 	public void eat(String foodNname) {}
 }
-class Pol extends Polymorphic{
+class Pol extends MoreState{
 
 	@Override
 	public void run() {
